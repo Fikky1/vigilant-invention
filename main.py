@@ -1,29 +1,28 @@
-from curses import ACS_GEQUAL
-import traceback
-from unicodedata import name
 
 
-class Student:(self, name:str, age:int, track:list, score:float)
+
+class Student:(self, name, age, track, score, float)
     # [assignment] Skeleton class. Add your code here
-    def __init__(self):
+def __init__(self):
         self.name:str=name
         self.age:int=age
         self.track:list=track
         self.score:float=score
 
-    def change_name(self,name):
-        self.name= name
-        print("the name is", name))
+        self=input_attribute
 
-    def change_age()self,age):
+def change_name(self,name):
+        self.name= name
+        print("student name", self.name)
+def change_age(self,age):
         self.age= age
         print("the age is", age)
 
-    def add_track(self,track):
+def add_track(self,track):
         self.track=self.track.append
         print(" the track is", tracks)
 
-    def get_score(self,score):
+def get_score(self,score):
         self_score=score
         print("the students score is", score)
     
